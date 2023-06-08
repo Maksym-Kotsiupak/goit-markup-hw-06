@@ -334,6 +334,74 @@ background-image: url(../images/antenna1.svg);
 .studiof{
     color: #F4F4FD;
 }
+.footer-container-subscribe {
+    margin-left: 80px;
+}
+.footer-subscribe-text {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-subscribe-input {
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-subscribe-input::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 24px;
+
+    transition: background-color 250ms var(--cubic);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background-color: #404bbf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-icon {
+    margin-left: 16px;
+    fill: #ffffff;
+}
 
 
 
@@ -793,15 +861,13 @@ ul{
     position: absolute;
     width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px 24px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
     background: #fcfcfc;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-
     transition: transform 250ms var(--cubic);
 }
 
